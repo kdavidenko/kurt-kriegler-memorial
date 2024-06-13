@@ -1,0 +1,27 @@
+.Start {
+  text-align: center;
+}
+
+.Start-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+p { 
+  margin: 0 auto;
+}
+
+.Start-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Start-link {
+  margin-top:12px;
+  color: #61dafb;
+}

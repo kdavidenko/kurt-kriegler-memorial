@@ -1,0 +1,62 @@
+
+.Slideshow {
+  text-align: center;
+}
+
+.Slideshow-link {
+  color: #61dafb;
+}
+
+audio {
+opacity: 0.1;
+transition: opacity 1s;
+position: absolute;
+bottom: 0;
+left:50%;
+margin: 0 0 20px -150px;
+}
+@keyframes bgcolor {
+  0% {
+      background-color: #131862;
+  }
+  25% {
+      background-color: #2e4482;
+  }
+  50% {
+    background-color: #546bab;
+  }
+  75% {
+    background-color: #87889c;
+  }
+  100% {
+    background-color: #bea9de;
+  }
+}
+
+body {
+  -webkit-animation: bgcolor 20s infinite;
+  animation: bgcolor 30s infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+audio:hover {
+  opacity: 1;
+  transition: opacity .5s;
+}
+
+[class*='pic-'] {
+  width: 33%;
+  max-width: 400px;
+  position: absolute;
+}
+
+.pic-left {
+  left: 15%;
+  top: 75px;
+  transform: rotate(-5deg);
+}
+.pic-right {
+  right: 15%;
+  top: 75px;
+  transform: rotate(5deg);
+}
