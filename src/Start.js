@@ -4,7 +4,7 @@ function Start() {
   return (
       <div className="Start">
       <header className="Start-header">
-        <img src='./logo.jpg' className="App-logo" alt="logo" />
+        <img src='/kurt-kriegler-memorial/logo.jpg' className="App-logo" alt="logo" />
         <h1>
           Kurt S. Kriegler
         </h1>

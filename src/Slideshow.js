@@ -21,10 +21,7 @@ function Slideshow() {
   }, [nextKey])
 
   const totalPics = 38; // id of the last image
-  const listOfComponents = [
-     <Picture url={currentList.ul} cls="pic-left" />,
-     <Picture url={currentList.ll} cls="pic-right"/>,
-  ]
+
   const updateList = () => {
     const nextPic = mostRecent+1 > totalPics ? 0 : mostRecent+1;
     let newList = {...currentList};
@@ -49,7 +46,7 @@ function Slideshow() {
       <Picture url={currentList.left} cls="pic-left" />
       <Picture url={currentList.right} cls="pic-right"/>
     </div>
-    <audio loop controls autoPlay muted src="./music/soundtrack.mp3">
+    <audio loop controls autoPlay muted src="/kurt-kriegler-memorial/music/soundtrack.mp3">
       Your browser does not support the audio element.
     </audio>
     </>
