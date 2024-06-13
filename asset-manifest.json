@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kurt-kriegler-memorial/static/css/main.d710d77f.css",
+    "main.js": "/kurt-kriegler-memorial/static/js/main.e7acd714.js",
+    "static/js/453.cb703281.chunk.js": "/kurt-kriegler-memorial/static/js/453.cb703281.chunk.js",
+    "index.html": "/kurt-kriegler-memorial/index.html",
+    "main.d710d77f.css.map": "/kurt-kriegler-memorial/static/css/main.d710d77f.css.map",
+    "main.e7acd714.js.map": "/kurt-kriegler-memorial/static/js/main.e7acd714.js.map",
+    "453.cb703281.chunk.js.map": "/kurt-kriegler-memorial/static/js/453.cb703281.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d710d77f.css",
+    "static/js/main.e7acd714.js"
+  ]
+}
