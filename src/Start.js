@@ -11,7 +11,7 @@ function Start() {
         <p>Aug 10, 1955 - May 16, 2024</p>
         <a
           className="App-link"
-          href="/slideshow"
+          href="/kurt-kriegler-memorial/#/slideshow"
           rel="noopener noreferrer"
         >
           Start
