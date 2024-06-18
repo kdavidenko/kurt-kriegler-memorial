@@ -46,17 +46,22 @@ audio:hover {
 
 [class*='pic-'] {
   width: 33%;
-  max-width: 400px;
+  max-width: 350px;
   position: absolute;
 }
 
 .pic-left {
-  left: 15%;
-  top: 75px;
+  left: 5%;
+  top: 175px;
   transform: rotate(-5deg);
 }
-.pic-right {
-  right: 15%;
+.pic-mid {
+  left: 50%;
   top: 75px;
+  margin-left:-175px;
+}
+.pic-right {
+  right: 5%;
+  top: 175px;
   transform: rotate(5deg);
 }

@@ -4,10 +4,11 @@ import './Slideshow.css';
 
 function Slideshow() {
   const [nextKey, setNextKey] = useState('left');
-  const [mostRecent, setMostRecent] = useState(1); // 3 is the 'most recent image' so replace 0 with 4, then 1 with 5, etc
+  const [mostRecent, setMostRecent] = useState(2); // 2 is the 'most recent image' so replace 0 with 4, then 1 with 5, etc
   const [currentList, setCurrentList] = useState({
     left:0,
-    right:1,
+    mid:1,
+    right:2,
   })
 
   useEffect(() => {
@@ -20,7 +21,7 @@ function Slideshow() {
     };
   }, [nextKey])
 
-  const totalPics = 38; // id of the last image
+  const totalPics = 53; // id of the last image
 
   const updateList = () => {
     const nextPic = mostRecent+1 > totalPics ? 0 : mostRecent+1;
@@ -28,6 +29,9 @@ function Slideshow() {
     let newKey;
     if (nextKey === 'left') {
       newList.left = nextPic
+      newKey = 'mid';
+    } else if (nextKey === 'mid'){
+      newList.mid = nextPic
       newKey = 'right';
     } else {
       newList.right = nextPic
@@ -44,6 +48,7 @@ function Slideshow() {
     <>
     <div className="Slideshow"> 
       <Picture url={currentList.left} cls="pic-left" />
+      <Picture url={currentList.mid} cls="pic-mid" />
       <Picture url={currentList.right} cls="pic-right"/>
     </div>
     <audio loop controls autoPlay muted src="/kurt-kriegler-memorial/music/soundtrack.mp3">
