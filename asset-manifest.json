@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/kurt-kriegler-memorial/static/css/main.d710d77f.css",
-    "main.js": "/kurt-kriegler-memorial/static/js/main.90073584.js",
+    "main.css": "/kurt-kriegler-memorial/static/css/main.b5a635d8.css",
+    "main.js": "/kurt-kriegler-memorial/static/js/main.838ab4f5.js",
     "static/js/453.cb703281.chunk.js": "/kurt-kriegler-memorial/static/js/453.cb703281.chunk.js",
     "index.html": "/kurt-kriegler-memorial/index.html",
-    "main.d710d77f.css.map": "/kurt-kriegler-memorial/static/css/main.d710d77f.css.map",
-    "main.90073584.js.map": "/kurt-kriegler-memorial/static/js/main.90073584.js.map",
+    "main.b5a635d8.css.map": "/kurt-kriegler-memorial/static/css/main.b5a635d8.css.map",
+    "main.838ab4f5.js.map": "/kurt-kriegler-memorial/static/js/main.838ab4f5.js.map",
     "453.cb703281.chunk.js.map": "/kurt-kriegler-memorial/static/js/453.cb703281.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d710d77f.css",
-    "static/js/main.90073584.js"
+    "static/css/main.b5a635d8.css",
+    "static/js/main.838ab4f5.js"
   ]
 }
